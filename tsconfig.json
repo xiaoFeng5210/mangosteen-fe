@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "skipLibCheck": true,
     "target": "esnext",
     "useDefineForClassFields": true,
     "module": "esnext",
@@ -8,7 +9,6 @@
     "jsx": "preserve",
     "sourceMap": true,
     "resolveJsonModule": true,
-    "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
     "lib": ["esnext", "dom"]

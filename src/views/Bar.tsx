@@ -1,7 +1,8 @@
-import { defineComponent } from "vue"
-
+import { defineComponent } from 'vue';
 export const Bar = defineComponent({
-    setup() {
-        return () => (<div>Bar</div>)
-    }
+  setup: (props, context) => {
+    return () => (
+      <div>Bar</div>
+    )
+  }
 })
