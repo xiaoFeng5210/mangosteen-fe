@@ -1,14 +1,10 @@
-import { defineComponent, PropType } from 'vue';
-import s from './ItemList.module.scss';
+import { defineComponent } from 'vue';
+import { TimeTabsLayout } from '../../layouts/TimeTabsLayout';
+import { ItemSummary } from './ItemSummary';
 export const ItemList = defineComponent({
-  props: {
-    name: {
-      type: String as PropType<string>
-    }
-  },
   setup: (props, context) => {
     return () => (
-      <div class={s.wrapper}>hi</div>
+      <TimeTabsLayout component={ItemSummary}/>
     )
   }
 })
